@@ -19,7 +19,7 @@
 :End
 :End
 :Input "TYPE N TO QUIT ", Str1
-:If Str1="n": : Then
-Return
+:If Str1="N": Then
+:Return
 :End
-End
+:End
