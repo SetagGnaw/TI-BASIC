@@ -1,0 +1,25 @@
+:While 1
+:Input "ENTER ANGLE: ",A
+:sin(A)→B
+:cos(A)→C
+:If B≥0: Then
+:If C≥0: Then
+:Disp"Q1"
+:End
+:If C≤0: Then
+:Disp"Q2"
+:End
+:End
+:If B≤0: Then
+:If C≥0: Then
+:Disp"Q4"
+:End
+:If C≥0: Then
+:Disp"Q3"
+:End
+:End
+:Input "TYPE N TO QUIT ", Str1
+:If Str1="n": : Then
+Return
+:End
+End
