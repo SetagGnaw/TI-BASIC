@@ -1,4 +1,3 @@
-:While 1
 :Input "ENTER ANGLE: ",A
 :sin(A)→B
 :cos(A)→C
@@ -18,8 +17,5 @@
 :Disp"Q3"
 :End
 :End
-:Input "TYPE N TO QUIT ", Str1
-:If Str1="N": Then
-:Return
-:End
-:End
+
+
